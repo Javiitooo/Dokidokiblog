@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doki Doki Literature Club - Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="menu-lateral">
+        <button id="btn-close-menu">×</button>
+        <a href="https://ddlc.fandom.com/es/wiki/Easter_Eggs">Easter Eggs</a>
+        <a href="https://ddlc.fandom.com/es/wiki/Sayori">Sayori</a>
+        <a href="https://ddlc.fandom.com/es/wiki/Natsuki">Natsuki</a>
+        <a href="https://ddlc.fandom.com/es/wiki/Yuri">Yuri</a>
+        <a href="https://ddlc.fandom.com/es/wiki/Monika">Monika</a>
+    </div>
+
+    <header>
+        <h1>Blog de Doki Doki Literature Club 🎶</h1>
+        <p>¡Conoce a los personajes y disfruta de la literatura! 📚</p>
+    </header>
+
+    <button id="btn-menu">☰</button>
+
+    <div class="content">
+        <section class="character" id="sayori">
+            <img src="sayori.png" alt="Sayori" class="character-img">
+            <div class="character-info">
+                <h2>Sayori 😊</h2>
+                <p><strong>Gustos:</strong> Jugar, cantar, pasar tiempo con sus amigos.</p>
+                <p>La amiga de la infancia del protagonista. Alegre y llena de energía, aunque guarda un dolor interno. 🌸</p>
+                <a href="https://ddlc.fandom.com/es/wiki/Sayori" target="_blank" class="button">Wiki Sayori</a>
+            </div>
+        </section>
+
+        <section class="character" id="natsuki">
+            <img src="natsuki.png" alt="Natsuki" class="character-img">
+            <div class="character-info">
+                <h2>Natsuki 🍰</h2>
+                <p><strong>Gustos:</strong> Hornear, mangas, pasteles, gatos.</p>
+                <p>Una chica pequeña y con un carácter fuerte. Le encanta hacer pasteles 🍰 y leer mangas 📖.</p>
+                <a href="https://ddlc.fandom.com/es/wiki/Natsuki" target="_blank" class="button">Wiki Natsuki</a>
+            </div>
+        </section>
+
+        <section class="character" id="yuri">
+            <img src="yuri.png" alt="Yuri" class="character-img">
+            <div class="character-info">
+                <h2>Yuri 📚</h2>
+                <p><strong>Gustos:</strong> Libros, té, tranquilidad, escribir.</p>
+                <p>Una chica introspectiva y muy reservada. Su amor por los libros y la literatura es profundo. 🌙</p>
+                <a href="https://ddlc.fandom.com/es/wiki/Yuri" target="_blank" class="button">Wiki Yuri</a>
+            </div>
+        </section>
+
+        <section class="character" id="monika">
+            <img src="monika.png" alt="Monika" class="character-img">
+            <div class="character-info">
+                <h2>Monika 🎶</h2>
+                <p><strong>Gustos:</strong> Música, liderazgo, crear cosas nuevas.</p>
+                <p>La presidenta del club. Inteligente, carismática, y parece tener un interés especial en el protagonista. 💻</p>
+                <a href="https://ddlc.fandom.com/es/wiki/Monika" target="_blank" class="button">Wiki Monika</a>
+            </div>
+        </section>
+    </div>
+    <div class="write-section">
+        <h2>Escribe algo:</h2>
+        <textarea id="text-area" rows="6" placeholder="Escribe aquí..."></textarea>
+        <button id="save-text">Guardar</button>
+        <p id="success-message" class="hidden">Texto guardado correctamente! 😊</p>
+    </div>
+    
+    <div class="history-section">
+        <h2>Historial de lo que has escrito:</h2>
+        <div id="history-container"></div>
+        <!-- Botón para borrar el historial -->
+        <button id="clear-history">Borrar Historial</button>
+    </div>
+    
+    
+    <footer>
+        <p>&copy; De: Jxvi Para: Coffe/Cafe - Todos los derechos reservados. 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
